@@ -1,0 +1,7 @@
+/* アプリ用の上書き：ゲーム画面だけを全画面に出し、試作用のメモ欄は隠す */
+html,body{height:100%;margin:0;overflow:hidden;background:#1a120d;overscroll-behavior:none}
+body{padding:0!important}
+.page{display:block!important;max-width:none!important;margin:0!important}
+.notes{display:none!important}
+#app{position:fixed!important;inset:0!important;width:100%!important;height:100%!important;min-height:0!important;border-radius:0!important;box-shadow:none!important}
+*{-webkit-tap-highlight-color:transparent}

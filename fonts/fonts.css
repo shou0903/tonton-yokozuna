@@ -1,0 +1,5 @@
+/* ゲーム内で使う文字だけに絞ったフォント（tools/subset_fonts.py で作り直せる）。ない文字は端末のフォントで表示される。 */
+@font-face{font-family:"Yuji Syuku";src:url("YujiSyuku-Regular.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Zen Kaku Gothic New";src:url("ZenKakuGothicNew-Medium.woff2") format("woff2");font-weight:400 500;font-display:swap}
+@font-face{font-family:"Zen Kaku Gothic New";src:url("ZenKakuGothicNew-Bold.woff2") format("woff2");font-weight:600 700;font-display:swap}
+@font-face{font-family:"Zen Kaku Gothic New";src:url("ZenKakuGothicNew-Black.woff2") format("woff2");font-weight:800 900;font-display:swap}
